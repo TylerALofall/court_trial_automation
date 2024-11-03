@@ -1,0 +1,96 @@
+{
+  "project_name": "LegalPresentation2024",
+  "project_directory": "/LegalPresentation2024", // Base directory for the project
+  "subdirectory": "code",                        // Target subdirectory within the project (code, evidence, exhibits, etc.)
+  "file_name": "presentation.html",
+  "file_type": "html",
+  
+  // Command Structure
+  "command": {
+    "type": "insert",
+    "start_page": null,
+    "end_page": null,
+    "line": 10,
+    "start_line": null,
+    "end_line": null,
+    "start_words": "Beginning Text",
+    "end_words": "Ending Text",
+    "before_words": "Sample Insert Point",
+    "after_words": "End of Sample",
+    "old_content": "Original text to replace",
+    "new_content": "New replacement text",
+    "content": "<p>This is a test insertion.</p>"
+  },
+  
+  // Evidence Card Structure
+  "evidence_card": {
+    "element_number": "110",
+    "element_description": "Intentional confinement of the plaintiff by the defendant.",
+    "fact": "Defendants confined Plaintiff without legal justification.",
+    "exhibits": [
+      {
+        "title": "Transcript of Court Proceedings",
+        "file_path": "/LegalPresentation2024/exhibits/exhibit1A.pdf",
+        "exhibit_id": "1A",
+        "date_added": "2024-10-01T10:00:00Z"
+      }
+    ],
+    "timestamp": "2024-10-01T10:00:00Z",
+    "relevant_case_laws": [
+      {
+        "case_name": "Monell v. Department of Social Services",
+        "citation": "436 U.S. 658 (1978)",
+        "summary": "Established that municipalities could be liable under §1983."
+      }
+    ],
+    "screenshot_path": "/LegalPresentation2024/images/element110.png",
+    "verification_status": "pending",
+    "cross_links": [
+      {
+        "related_element_number": "111",
+        "link_type": "corroborative",
+        "notes": "Links to previous incident reports."
+      }
+    ]
+  },
+  
+  // Project Metadata
+  "metadata": {
+    "author": "Tyler Allen Lofall",
+    "creation_date": "2024-10-15T14:30:00Z",
+    "last_modified_date": "2024-10-16T10:00:00Z",
+    "tags": ["court_presentation", "HTML", "evidence"],
+    "notes": "First draft for court presentation template.",
+    "status": "in_progress"
+  },
+  
+  // GitHub Integration Information
+  "github": {
+    "repository_url": "https://github.com/YourRepo/LegalPresentation2024",
+    "commit_message": "Initial commit for court presentation template",
+    "file_paths": [
+      "/LegalPresentation2024/code/presentation.html",
+      "/LegalPresentation2024/evidence/evidence_card1.json",
+      "/LegalPresentation2024/exhibits/exhibit1A.pdf"
+    ],
+    "sync_status": "pending"
+  },
+  
+  // WordPress Integration Information
+  "wordpress": {
+    "url": "https://yourwordpresssite.com/wp-json/wp/v2/pages",
+    "post_id": 12345,
+    "status": "publish",
+    "author": "Tyler Allen Lofall",
+    "categories": ["Legal Documents", "Evidence"],
+    "tags": ["court_case", "evidence_card"]
+  },
+  
+  // Export Information
+  "export": {
+    "format": "PDF",
+    "output_path": "/LegalPresentation2024/exports/legal_presentation.pdf",
+    "export_status": "completed",
+    "export_date": "2024-10-16T12:00:00Z"
+  }
+}
